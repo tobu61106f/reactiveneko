@@ -1,11 +1,9 @@
 import {
     TbBrandGithub,
-    TbBrandSteam,
     TbBrandTelegram,
     TbBrandTwitter,
     TbBrandWeibo,
-    TbCookie,
-    TbNetwork,
+    TbCpu,
     TbSourceCode,
     TbCpu
 } from 'react-icons/tb'
