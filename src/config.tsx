@@ -42,8 +42,9 @@ export const PROFILE_NAME = (
             hoverColor="hsla(0, 35%, 57%, 0.75)"
             ruby="10"
         >
-            460
+            igbt
         </ProfileNameStandout>
+        460
     </>
 )
 
@@ -149,10 +150,15 @@ export const DESCRIPTION_PARAGRAPHS = (
                 <del className="deleted">I want to be a girl.</del>
             </Paragraph>
         </Description>
+        <Description>
+            <DescriptionTitle smallCaps>travel</DescriptionTitle>
+            <Paragraph>Japan: 41/47</Paragraph>
+            <Paragraph>Korea, Republic of: 4/17</Paragraph>
+        </Description>
     </Row>
 )
 
-export const COPYRIGHT = 'Copyright © 2015-2024 amphineko. Illustrations have their own licenses.'
+export const COPYRIGHT = 'Copyright © 2026 igbt460. Illustrations have their own licenses.'
 
 interface Account {
     platform: string
