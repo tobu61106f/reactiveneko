@@ -1,3 +1,15 @@
+# GitHub Pages Deployment Workflow
+#
+# Deploys to: https://<owner>.github.io/<repo>/
+# Current target: https://tobu61106f.github.io/reactiveneko/
+#
+# To deploy to a custom domain (e.g. https://example.com/):
+#   1. Set BASE_PATH to '/' below
+#   2. Configure the custom domain in GitHub repo Settings > Pages
+#
+# To deploy to a different subdirectory (e.g. https://<owner>.github.io/<other-repo>/):
+#   1. Change BASE_PATH to '/<other-repo>/'
+
 name: Deploy to GitHub Pages
 
 on:
@@ -13,6 +25,9 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: false
+
+env:
+  BASE_PATH: /reactiveneko/
 
 jobs:
   build:
@@ -34,6 +49,8 @@ jobs:
 
       - name: Build
         run: yarn build
+        env:
+          BASE_PATH: ${{ env.BASE_PATH }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
