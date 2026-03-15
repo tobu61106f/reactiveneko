@@ -98,9 +98,9 @@ export const IndexPage = () => {
                 ))}
             </AccountShowcase.Container>
 
+            {WHOAMI_PARAGRAPHS}
             {DESCRIPTION_PARAGRAPHS}
             {ADDITIONAL_PARAGRAPHS}
-            {WHOAMI_PARAGRAPHS}
 
             <Footer>
                 <FooterParagraph icon={TbGitBranch as IconType} color="#ddd">
