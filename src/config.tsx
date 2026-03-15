@@ -5,9 +5,13 @@ import {
     TbBrandWeibo,
     TbCpu,
     TbSourceCode,
+    TbMathMin,
 } from 'react-icons/tb'
 import { HiAcademicCap } from "react-icons/hi";
-import { PiCpu } from "react-icons/pi";
+import { 
+    PiCpu,
+    PiFunctionFill,
+} from "react-icons/pi";
 import { IoLogoFlickr } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
 
@@ -92,6 +96,23 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
         ],
     },
     {
+        title: 'research',
+        tags: [
+            {
+                tag: 'GPGPU',
+                icon: <TbCpu />,
+            },
+            {
+                tag: 'Optimization Method',
+                icon: <TbMathMin />,
+            },
+            {
+                tag: 'NumMethodForPDE',
+                icon: <PiFunctionFill />,
+            },
+        ],
+    },
+    {
         title: 'languages',
         tags: [
             {
@@ -100,10 +121,15 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
             },
             {
                 tag: 'en-US',
+                comment: 'bi·lin·gual'
             },
             {
                 tag: 'ja',
-                comment: 'fluent',
+                comment: 'mid-fluent',
+            },
+            {
+                tag: 'kr',
+                comment: 'learning',
             },
         ],
     },
