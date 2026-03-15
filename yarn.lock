@@ -1379,13 +1379,13 @@ __metadata:
     prettier: "npm:^3.0.0"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    react-icons: "npm:^4.3.1"
+    react-icons: "npm:^5.5.0"
     react-query: "npm:^3.34.19"
     sharp: "npm:^0.33.2"
     styled-jsx: "npm:^5.1.2"
     svgo: "npm:^3.2.0"
     typescript: "npm:^5.1.6"
-    vite: "npm:^5.3.6"
+    vite: "npm:^5.4.21"
     vite-imagetools: "npm:^6.2.9"
   languageName: unknown
   linkType: soft
@@ -4228,12 +4228,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-icons@npm:^4.3.1":
-  version: 4.12.0
-  resolution: "react-icons@npm:4.12.0"
+"react-icons@npm:^5.5.0":
+  version: 5.6.0
+  resolution: "react-icons@npm:5.6.0"
   peerDependencies:
     react: "*"
-  checksum: 10c0/2170f43031ee7365539f72d4075cbe6c7fbf9a66d6cf4494aa9393b194272da0564f5b19d1b24dbfc567c0ac89f5fe5b8974d92dd83f61e252388dde6a226fb8
+  checksum: 10c0/addba1ebfd45cdf7f69291d0c93df64fca1271cfdb66df657abd223e3451c73356b035f50e75858627dd182b02129596c79eaaaa45d32eb52658e443a992645c
   languageName: node
   linkType: hard
 
@@ -5156,9 +5156,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^5.3.6":
-  version: 5.4.11
-  resolution: "vite@npm:5.4.11"
+"vite@npm:^5.4.21":
+  version: 5.4.21
+  resolution: "vite@npm:5.4.21"
   dependencies:
     esbuild: "npm:^0.21.3"
     fsevents: "npm:~2.3.3"
@@ -5195,7 +5195,7 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: 10c0/d536bb7af57dd0eca2a808f95f5ff1d7b7ffb8d86e17c6893087680a0448bd0d15e07475270c8a6de65cb5115592d037130a1dd979dc76bcef8c1dda202a1874
+  checksum: 10c0/468336a1409f728b464160cbf02672e72271fb688d0e605e776b74a89d27e1029509eef3a3a6c755928d8011e474dbf234824d054d07960be5f23cd176bc72de
   languageName: node
   linkType: hard
 
