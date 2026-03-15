@@ -8,7 +8,7 @@ import {
 } from 'react-icons/tb'
 import { HiAcademicCap } from "react-icons/hi";
 import { PiCpu } from "react-icons/pi";
-
+import { FaFlickr } from "react-icons/fa";
 
 import ProfilePictureOriginal from './assets/images/Kaho.jpg'
 import ProfilePictureAvif from './assets/images/Kaho.jpg?format=avif'
@@ -151,6 +151,13 @@ export const ACCOUNTS: Accounts[] = [
                 url: 'https://tobu61106f.github.io',
                 icon: <HiAcademicCap />,
                 iconBackground: '#1da1f2aa',
+            },
+            {
+                platform: 'Flickr',
+                name: '日野下花帆',
+                url: 'https://flickr.com/kasumi_8972m/',
+                icon: <FaFlickr />,
+                iconBackground: '#FFFFFF',
             },
         ],
     },
