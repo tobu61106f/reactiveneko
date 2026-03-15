@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 import { imagetools } from 'vite-imagetools'
 
 export default defineConfig({
-    base: '',
+    base: process.env.BASE_PATH ?? '/',
     plugins: [
         react({
             babel: {
