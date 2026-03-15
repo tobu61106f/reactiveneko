@@ -137,20 +137,16 @@ export const DESCRIPTION_PARAGRAPHS = (
     <Row background={PANEL_BACKGROUND}>
         <Description>
             <DescriptionTitle smallCaps>what am i doing?</DescriptionTitle>
-            <Paragraph>FAANG network enginner since 2022.</Paragraph>
-            <Paragraph>passionate full-stack software developer and open-source contributor.</Paragraph>
-            <Paragraph>amateur network engineer operating own Internet autonomous systems.</Paragraph>
+            <Paragraph>B.S. Electrical Engineer since 2025.</Paragraph>
+            <Paragraph>Research Scientisit (?).</Paragraph>
+            <Paragraph>Train Enthusiast</Paragraph>
         </Description>
         <Description>
             <DescriptionTitle smallCaps>what do i love?</DescriptionTitle>
-            <Paragraph>ardently love of FPS, simulation and AVG.</Paragraph>
-            <Paragraph>rhythm game is LIFE!</Paragraph>
+            <Paragraph>Pokemon.</Paragraph>
+            <Paragraph>Idol</Paragraph>
             <Paragraph>
-                retired and mission-collection only{' '}
-                <ExternalLink href="https://en.wikipedia.org/wiki/Ingress_(video_game)">Ingress</ExternalLink> agent.
-            </Paragraph>
-            <Paragraph>
-                <del className="deleted">dreamed to be a civil aviation pilot.</del>
+                <del className="deleted">I want to be a girl.</del>
             </Paragraph>
         </Description>
     </Row>
