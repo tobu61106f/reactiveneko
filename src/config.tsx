@@ -66,7 +66,7 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
         tags: [
             {
                 tag: 'Analog',
-                icon: <TbSourceCode />,
+                icon: <TbCpu />,
             },
             {
                 tag: 'System',
