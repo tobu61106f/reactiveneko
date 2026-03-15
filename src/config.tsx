@@ -150,10 +150,19 @@ export const DESCRIPTION_PARAGRAPHS = (
                 <del className="deleted">I want to be a girl.</del>
             </Paragraph>
         </Description>
+    </Row>
+)
+
+export const DESCRIPTION_PARAGRAPHS = (
+    <Row background={PANEL_BACKGROUND}>
         <Description>
             <DescriptionTitle smallCaps>travel</DescriptionTitle>
-            <Paragraph>Japan: 41/47</Paragraph>
-            <Paragraph>Korea, Republic of: 4/17</Paragraph>
+            <Paragraph>Japan: 41/47 都府道県</Paragraph>
+            <Paragraph>Korea, Republic of: 4/17 特別市/特别自治市/广域市/道/</Paragraph>
+            <Paragraph>United States: 7/50 State(s)</Paragraph>
+            <Paragraph>Canada: 2 Province(s)</Paragraph>
+            <Paragraph>Russia: 2 State(s)</Paragraph>
+            <Paragraph>Taiwan (Republic of China): 10/22 </Paragraph>
         </Description>
     </Row>
 )
