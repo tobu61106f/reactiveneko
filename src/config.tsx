@@ -6,7 +6,7 @@ import {
     TbCpu,
     TbSourceCode,
 } from 'react-icons/tb'
-
+import { HiAcademicCap } from "react-icons/hi";
 
 import ProfilePictureOriginal from './assets/images/Kaho.jpg'
 import ProfilePictureAvif from './assets/images/Kaho.jpg?format=avif'
@@ -131,6 +131,14 @@ export const ACCOUNTS: Accounts[] = [
                 platform: 'Weibo',
                 name: 'redacted',
                 icon: <TbBrandWeibo />,
+                iconBackground: '#ff9933aa',
+                redacted: true,
+            },
+            {
+                platform: 'academicpage',
+                name: '@Zhiyun Yu',
+                url: 'https://tobu61106f.github.io',
+                icon: <HiAcademicCap />,
                 iconBackground: '#ff9933aa',
                 redacted: true,
             },
