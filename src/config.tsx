@@ -157,7 +157,7 @@ export const ACCOUNTS: Accounts[] = [
                 name: '日野下花帆',
                 url: 'https://flickr.com/kasumi_8972m/',
                 icon: <IoLogoFlickr />,
-                iconBackground: '#f0f0f0',
+                iconBackground: '#6a5acd',
             },
         ],
     },
@@ -171,8 +171,8 @@ export const WHOAMI_PARAGRAPHS = (
             <Paragraph>占星师说我一定会成为ASIC工程师</Paragraph>
             <Paragraph>上帝造我并不完美，刚出生的时候脑袋就坏掉了(AuDHD发育障碍)</Paragraph>
             <Paragraph>提倡自由互联网</Paragraph>
-            <Paragraph>希望能为社会公义做出贡献</Paragraph>
-            <Paragraph>SDGs賛成/多様性重視</Paragraph>
+            <Paragraph>想为社会转型正义做出贡献</Paragraph>
+            <Paragraph>SDGs賛成:多様性重視</Paragraph>
             <Paragraph>My office is a safe place.</Paragraph>
         </Description>
     </Row>
@@ -190,7 +190,7 @@ export const DESCRIPTION_PARAGRAPHS = (
         </Description>
         <Description>
             <DescriptionTitle smallCaps>what do i love?</DescriptionTitle>
-            <Paragraph>Pokemon.</Paragraph>
+            <Paragraph>Pokemon</Paragraph>
             <Paragraph>アイドル</Paragraph>
             <Paragraph>じょせいせいゆう</Paragraph>
             <Paragraph>
@@ -203,13 +203,13 @@ export const DESCRIPTION_PARAGRAPHS = (
 export const ADDITIONAL_PARAGRAPHS = (
     <Row background={PANEL_BACKGROUND}>
         <Description>
-            <DescriptionTitle smallCaps>travel</DescriptionTitle>
+            <DescriptionTitle smallCaps>travel-history</DescriptionTitle>
             <Paragraph>Japan: 41/47 都府道県</Paragraph>
-            <Paragraph>Korea, Republic of: 6/17 特別市/特别自治市/广域市/道</Paragraph>
+            <Paragraph>Korea, Republic of: 6/17 特別市/特别自治市/廣域市/道</Paragraph>
             <Paragraph>United States: 7/50 State(s)</Paragraph>
             <Paragraph>Canada: 2 Province(s)</Paragraph>
-            <Paragraph>Russia: 2 State(s)</Paragraph>
-            <Paragraph>Taiwan (Republic of China): 10/22 </Paragraph>
+            <Paragraph>Russia Federal: 2 State(s)</Paragraph>
+            <Paragraph>Taiwan (Republic of China): 10/22 Countie(s)/City(ies)/ </Paragraph>
         </Description>
     </Row>
 )
