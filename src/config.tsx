@@ -7,7 +7,10 @@ import {
     TbCookie,
     TbNetwork,
     TbSourceCode,
+    TbCpu
 } from 'react-icons/tb'
+
+
 import ProfilePictureOriginal from './assets/images/Kaho.jpg'
 import ProfilePictureAvif from './assets/images/Kaho.jpg?format=avif'
 import ProfilePictureJpeg from './assets/images/Kaho.jpg?format=jpeg'
@@ -66,7 +69,7 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
         tags: [
             {
                 tag: 'Analog',
-                icon: <TbCpu />,
+                icon: <TbSourceCode />,
             },
             {
                 tag: 'System',
