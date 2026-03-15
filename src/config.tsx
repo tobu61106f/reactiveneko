@@ -139,9 +139,12 @@ export const WHOAMI_PARAGRAPHS = (
         <Description>
             <DescriptionTitle smallCaps>WHO AM I?</DescriptionTitle>
             <Paragraph>ESP32架构电子垃圾爱好者</Paragraph>
-            <Paragraph>生来的时候脑袋就坏掉了</Paragraph>
+            <Paragraph>占星师说我一定会成为ASIC工程师</Paragraph>
+            <Paragraph>上帝造我并不完美，刚出生的时候脑袋就坏掉了(AuDHD发育障碍)</Paragraph>
             <Paragraph>提倡自由互联网</Paragraph>
             <Paragraph>希望能为社会公义做出贡献</Paragraph>
+            <Paragraph>SDGs賛成/多様性重視</Paragraph>
+            <Paragraph>My office is a safe place.</Paragraph>
         </Description>
     </Row>
 )
