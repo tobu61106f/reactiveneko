@@ -8,11 +8,11 @@ import {
     TbNetwork,
     TbSourceCode,
 } from 'react-icons/tb'
-import ProfilePictureOriginal from './assets/images/amphineko.png'
-import ProfilePictureAvif from './assets/images/amphineko.png?format=avif'
-import ProfilePictureJpeg from './assets/images/amphineko.png?format=jpeg'
-import ProfilePicturePng from './assets/images/amphineko.png?format=png'
-import ProfilePictureWebp from './assets/images/amphineko.png?format=webp'
+import ProfilePictureOriginal from './assets/images/Kaho.jpg'
+import ProfilePictureAvif from './assets/images/Kaho.jpg?format=avif'
+import ProfilePictureJpeg from './assets/images/Kaho.jpg?format=jpeg'
+import ProfilePicturePng from './assets/images/Kaho.jpg?format=png'
+import ProfilePictureWebp from './assets/images/Kaho.jpg?format=webp'
 import { ProfileNameStandout, ProfilePictureSources } from './components/display/header'
 import { Description, DescriptionTitle, ExternalLink, Paragraph } from './components/typography'
 import PanelBackground from './assets/images/blueprint-panels.svg'
@@ -35,17 +35,15 @@ export const PROFILE_PICTURE: ProfilePictureSources = {
 export const PROFILE_NAME = (
     <>
         {/* amphi[ne]ko */}
-        amphi
         <ProfileNameStandout
             backgroundColor="hsla(0, 100%, 82%, 0.25)"
-            href="https://en.wikipedia.org/wiki/Neon"
-            hoverRuby="ね"
-            hoverColor="hsla(0, 100%, 82%, 0.75)"
+            href="https://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor"
+            hoverRuby="igbt"
+            hoverColor="hsla(0, 35%, 57%, 0.75)"
             ruby="10"
         >
-            ne
+            460
         </ProfileNameStandout>
-        ko
     </>
 )
 
@@ -54,12 +52,12 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
         title: 'also-known-as',
         tags: [
             {
-                tag: 'atomic-akarin',
-                comment: 'since 201?',
+                tag: 'shiromaru',
+                comment: 'since 202?',
             },
             {
-                tag: '1kar0s',
-                comment: 'since 202?',
+                tag: 'binbin',
+                comment: 'since 201?',
             },
         ],
     },
@@ -67,11 +65,11 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
         title: 'area-of-work',
         tags: [
             {
-                tag: 'neteng',
-                icon: <TbNetwork />,
+                tag: 'Analog',
+                icon: <TbCpu />,
             },
             {
-                tag: 'swe',
+                tag: 'System',
                 icon: <TbSourceCode />,
             },
         ],
@@ -80,18 +78,15 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
         title: 'languages',
         tags: [
             {
-                tag: 'zh-cmn-Hans',
+                tag: 'zh-Hans',
                 comment: 'native',
-            },
-            {
-                tag: 'en-GB',
             },
             {
                 tag: 'en-US',
             },
             {
                 tag: 'ja',
-                comment: 'learning',
+                comment: 'fluent',
             },
         ],
     },
@@ -103,8 +98,8 @@ export const ACCOUNTS: Accounts[] = [
         accounts: [
             {
                 platform: 'GitHub',
-                name: 'amphineko',
-                url: 'https://github.com/amphineko/',
+                name: 'tobu61106f',
+                url: 'https://github.com/tobu61106f/',
                 icon: <TbBrandGithub />,
                 iconBackground: '#000000',
             },
@@ -115,15 +110,15 @@ export const ACCOUNTS: Accounts[] = [
         accounts: [
             {
                 platform: 'Telegram',
-                name: '@amphineko',
-                url: 'https://telegram.me/amphineko',
+                name: '@TY5189F',
+                url: 'https://telegram.me/TY5189F',
                 icon: <TbBrandTelegram />,
                 iconBackground: '#0088ccaa',
             },
             {
                 platform: 'Twitter',
-                name: '@amphineko',
-                url: 'https://twitter.com/amphineko/',
+                name: '@igbt460',
+                url: 'https://twitter.com/42__hayabusa/',
                 icon: <TbBrandTwitter />,
                 iconBackground: '#1da1f2aa',
             },
@@ -133,32 +128,6 @@ export const ACCOUNTS: Accounts[] = [
                 icon: <TbBrandWeibo />,
                 iconBackground: '#ff9933aa',
                 redacted: true,
-            },
-        ],
-    },
-    {
-        type: 'gaming',
-        accounts: [
-            {
-                platform: 'osu!',
-                name: 'Rukatan',
-                url: 'https://osu.ppy.sh/users/1344051',
-                icon: <TbCookie />,
-                iconBackground: '#f062a1aa',
-            },
-            {
-                platform: 'Steam',
-                name: '1kar0s',
-                url: 'https://steamcommunity.com/id/amphineko/',
-                icon: <TbBrandSteam />,
-                iconBackground: '#000000aa',
-            },
-            {
-                platform: 'VATSIM',
-                name: 'N190AP',
-                url: 'https://stats.vatsim.net/stats/1499554',
-                icon: <TbBrandSteam />,
-                iconBackground: '#ff9933aa',
             },
         ],
     },
