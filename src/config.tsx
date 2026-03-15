@@ -38,7 +38,7 @@ export const PROFILE_NAME = (
         <ProfileNameStandout
             backgroundColor="hsla(0, 100%, 82%, 0.25)"
             href="https://en.wikipedia.org/wiki/Insulated-gate_bipolar_transistor"
-            hoverRuby="IGBT-VVVF"
+            hoverRuby="IGBT"
             hoverColor="hsla(0, 35%, 57%, 0.75)"
             ruby="10"
         >
