@@ -231,7 +231,16 @@ export const DESCRIPTION_PARAGRAPHS = (
                 <del className="deleted">I want to be a girl.</del>
             </Paragraph>
         </Description>
+        <Description>
+            <DescriptionTitle smallCaps>Miscs</DescriptionTitle>
+            <Paragraph>蓮ノ空女学院スクールアイドルクラブ: 村野さやか (CV: 野中ここな)、日野下花帆 (CV: 楡井希実)</Paragraph>
+            <Paragraph>学園アイドルマスター: 葛城リーリヤ (Katsuragi Riiriya, CV: 花岩香奈)</Paragraph>
+            <Paragraph>BanGDream! Morfonica：二葉つくし (CV：mika)</Paragraph>
+            <Paragraph>and more …</Paragraph>
+            <Paragraph>乗り物: 録り, 撮り</Paragraph>
+        </Description>
     </Row>
+    
 )
 
 export const ADDITIONAL_PARAGRAPHS = (
