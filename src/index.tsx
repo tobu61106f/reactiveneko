@@ -12,6 +12,7 @@ import {
     COPYRIGHT,
     DESCRIPTION_PARAGRAPHS,
     ADDITIONAL_PARAGRAPHS,
+    WHOAMI_PARAGRAPHS,
     PANEL_BACKGROUND,
     PROFILE_NAME,
     PROFILE_PICTURE,
@@ -99,6 +100,7 @@ export const IndexPage = () => {
 
             {DESCRIPTION_PARAGRAPHS}
             {ADDITIONAL_PARAGRAPHS}
+            {WHOAMI_PARAGRAPHS}
 
             <Footer>
                 <FooterParagraph icon={TbGitBranch as IconType} color="#ddd">
