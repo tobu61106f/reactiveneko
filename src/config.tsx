@@ -153,7 +153,7 @@ export const DESCRIPTION_PARAGRAPHS = (
     </Row>
 )
 
-export const DESCRIPTION_PARAGRAPHS = (
+export const ADDITIONAL_PARAGRAPHS = (
     <Row background={PANEL_BACKGROUND}>
         <Description>
             <DescriptionTitle smallCaps>travel</DescriptionTitle>
