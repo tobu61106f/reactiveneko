@@ -60,6 +60,10 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
                 tag: 'binbin',
                 comment: 'since 201?',
             },
+            {
+                tag: 'Yu Zhiyun',
+                comment: 'since i were born',
+            },
         ],
     },
     {
