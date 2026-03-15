@@ -1,11 +1,9 @@
 import {
     TbBrandGithub,
-    TbBrandSteam,
     TbBrandTelegram,
     TbBrandTwitter,
     TbBrandWeibo,
-    TbCookie,
-    TbNetwork,
+    TbCpu,
     TbSourceCode,
 } from 'react-icons/tb'
 import ProfilePictureOriginal from './assets/images/Kaho.jpg'
