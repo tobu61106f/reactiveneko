@@ -7,6 +7,8 @@ import {
     TbSourceCode,
 } from 'react-icons/tb'
 import { HiAcademicCap } from "react-icons/hi";
+import { PiCpu } from "react-icons/pi";
+
 
 import ProfilePictureOriginal from './assets/images/Kaho.jpg'
 import ProfilePictureAvif from './assets/images/Kaho.jpg?format=avif'
@@ -63,6 +65,15 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
             {
                 tag: 'Yu Zhiyun',
                 comment: 'since i were born',
+            },
+        ],
+    },
+    {
+        title: 'majored-in',
+        tags: [
+            {
+                tag: 'Electrical Engineering',
+                icon: <PiCpu />,
             },
         ],
     },
