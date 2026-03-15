@@ -124,12 +124,16 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
                 comment: 'bi·lin·gual'
             },
             {
-                tag: 'ja',
+                tag: 'ja-JP',
                 comment: 'mid-fluent',
             },
             {
-                tag: 'kr',
+                tag: 'ko-KR',
                 comment: 'learning',
+            },
+            {
+                tag: 'es-ES',
+                comment: 'Forgot',
             },
         ],
     },
