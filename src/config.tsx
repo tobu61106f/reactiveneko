@@ -9,6 +9,7 @@ import {
 import { HiAcademicCap } from "react-icons/hi";
 import { PiCpu } from "react-icons/pi";
 import { IoLogoFlickr } from "react-icons/io5";
+import { FaInstagram } from "react-icons/fa";
 
 import ProfilePictureOriginal from './assets/images/Kaho.jpg'
 import ProfilePictureAvif from './assets/images/Kaho.jpg?format=avif'
@@ -158,6 +159,13 @@ export const ACCOUNTS: Accounts[] = [
                 url: 'https://flickr.com/kasumi_8972m/',
                 icon: <IoLogoFlickr />,
                 iconBackground: '#6a5acd',
+            },
+            {
+                platform: 'Instagram',
+                name: 'igbt460',
+                url: 'https://www.instagram.com/igbt460/',
+                icon: <FaInstagram />,
+                iconBackground: '#ff00ff',
             },
         ],
     },
