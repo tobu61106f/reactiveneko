@@ -134,6 +134,20 @@ export const ACCOUNTS: Accounts[] = [
     },
 ]
 
+export const WHOAMI_PARAGRAPHS = (
+    <Row background={PANEL_BACKGROUND}>
+        <Description>
+            <DescriptionTitle smallCaps>WHO AM I?</DescriptionTitle>
+            <Paragraph>ESP32架构电子垃圾爱好者</Paragraph>
+            <Paragraph>生来的时候脑袋就坏掉了</Paragraph>
+            <Paragraph>提倡自由互联网</Paragraph>
+            <Paragraph>希望能为社会公义做出贡献</Paragraph>
+        </Description>
+    </Row>
+)
+
+
+
 export const DESCRIPTION_PARAGRAPHS = (
     <Row background={PANEL_BACKGROUND}>
         <Description>
