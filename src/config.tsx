@@ -122,7 +122,7 @@ export const ACCOUNTS: Accounts[] = [
             },
             {
                 platform: 'Twitter',
-                name: '@igbt460',
+                name: '@42__hayabusa',
                 url: 'https://twitter.com/42__hayabusa/',
                 icon: <TbBrandTwitter />,
                 iconBackground: '#1da1f2aa',
@@ -139,8 +139,7 @@ export const ACCOUNTS: Accounts[] = [
                 name: '@Zhiyun Yu',
                 url: 'https://tobu61106f.github.io',
                 icon: <HiAcademicCap />,
-                iconBackground: '#ff9933aa',
-                redacted: true,
+                iconBackground: '#1da1f2aa',
             },
         ],
     },
@@ -174,7 +173,8 @@ export const DESCRIPTION_PARAGRAPHS = (
         <Description>
             <DescriptionTitle smallCaps>what do i love?</DescriptionTitle>
             <Paragraph>Pokemon.</Paragraph>
-            <Paragraph>Idol</Paragraph>
+            <Paragraph>アイドル</Paragraph>
+            <Paragraph>じょせいせいゆう</Paragraph>
             <Paragraph>
                 <del className="deleted">I want to be a girl.</del>
             </Paragraph>
@@ -187,7 +187,7 @@ export const ADDITIONAL_PARAGRAPHS = (
         <Description>
             <DescriptionTitle smallCaps>travel</DescriptionTitle>
             <Paragraph>Japan: 41/47 都府道県</Paragraph>
-            <Paragraph>Korea, Republic of: 4/17 特別市/特别自治市/广域市/道/</Paragraph>
+            <Paragraph>Korea, Republic of: 6/17 特別市/特别自治市/广域市/道</Paragraph>
             <Paragraph>United States: 7/50 State(s)</Paragraph>
             <Paragraph>Canada: 2 Province(s)</Paragraph>
             <Paragraph>Russia: 2 State(s)</Paragraph>
