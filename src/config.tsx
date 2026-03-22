@@ -7,7 +7,7 @@ import {
     TbSourceCode,
     TbMathMin,
     TbBrandMastodon,
-} from 'react-icons/tb';
+} from 'react-icons/tb'
 import { HiAcademicCap } from "react-icons/hi";
 import { 
     PiCpu,
