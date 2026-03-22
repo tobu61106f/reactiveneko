@@ -6,7 +6,8 @@ import {
     TbCpu,
     TbSourceCode,
     TbMathMin,
-} from 'react-icons/tb'
+    TbBrandMastodon,
+} from 'react-icons/tb';
 import { HiAcademicCap } from "react-icons/hi";
 import { 
     PiCpu,
@@ -161,6 +162,13 @@ export const ACCOUNTS: Accounts[] = [
                 url: 'https://telegram.me/TY5189F',
                 icon: <TbBrandTelegram />,
                 iconBackground: '#0088ccaa',
+            },
+            {
+                platform: 'mastodon.social',
+                name: '@Namuru',
+                url: 'https://mastodon.social/@Namuru',
+                icon: <<TbBrandMastodon />,
+                iconBackground: '#6a5acd',
             },
             {
                 platform: 'Twitter',
