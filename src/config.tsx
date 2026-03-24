@@ -82,7 +82,11 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
                 icon: <HiAcademicCap />,
             },
             {
-                tag: 'Master of Science, 2027',
+                tag: 'Master of Science, 2027 (Expected)',
+                icon: <HiAcademicCap />,
+            },
+            {
+                tag: 'Ph.D. (Doctor of Philosophy) (Incoming)',
                 icon: <HiAcademicCap />,
             },
         ],
