@@ -280,6 +280,11 @@ export const ADDITIONAL_PARAGRAPHS = (
             <Paragraph>Russia Federal: 2 State(s)</Paragraph>
             <Paragraph>Taiwan (Republic of China): 10/22 Countie(s)/City(ies)/ </Paragraph>
         </Description>
+        <Description>
+            <DescriptionTitle smallCaps>frequently-traveler</DescriptionTitle>
+            <Paragraph>ANA: NH111/112/967/968 on HND<->SFO, HND<->PVG </Paragraph>
+            <Paragraph>Delta: DL166/167/274/275/388/389 on SEA<->HND, DTW<->HND, DTW<->PVG</Paragraph>
+        </Description>
     </Row>
 )
 
