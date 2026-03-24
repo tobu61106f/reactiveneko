@@ -282,8 +282,8 @@ export const ADDITIONAL_PARAGRAPHS = (
         </Description>
         <Description>
             <DescriptionTitle smallCaps>frequently-traveler</DescriptionTitle>
-            <Paragraph>ANA: NH111/112/967/968 on HND<->SFO, HND<->PVG </Paragraph>
-            <Paragraph>Delta: DL166/167/274/275/388/389 on SEA<->HND, DTW<->HND, DTW<->PVG</Paragraph>
+            <Paragraph>ANA: NH111/112/967/968 on HND↔️SFO, HND↔️PVG </Paragraph>
+            <Paragraph>Delta: DL166/167/274/275/388/389 on SEA↔️HND, DTW↔️HND, DTW↔️PVG</Paragraph>
         </Description>
     </Row>
 )
