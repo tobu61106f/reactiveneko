@@ -243,8 +243,8 @@ export const DESCRIPTION_PARAGRAPHS = (
     <Row background={PANEL_BACKGROUND}>
         <Description>
             <DescriptionTitle smallCaps>what am i doing?</DescriptionTitle>
-            <Paragraph>B.S. Electrical Engineer since 2025.</Paragraph>
-            <Paragraph>Research Scientisit (?).</Paragraph>
+            <Paragraph>Pursuing a Master Degree in Electrical Engineering</Paragraph>
+            <Paragraph>Research Scientisit(?). </Paragraph>
             <Paragraph>Train Enthusiast</Paragraph>
         </Description>
         <Description>
@@ -252,9 +252,6 @@ export const DESCRIPTION_PARAGRAPHS = (
             <Paragraph>Pokemon</Paragraph>
             <Paragraph>アイドル</Paragraph>
             <Paragraph>じょせいせいゆう</Paragraph>
-            <Paragraph>
-                <del className="deleted">I want to be a girl.</del>
-            </Paragraph>
         </Description>
         <Description>
             <DescriptionTitle smallCaps>Miscs</DescriptionTitle>
