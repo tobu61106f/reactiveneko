@@ -75,6 +75,19 @@ export const PROFILE_TAGS: ProfileHeaderTagGroup[] = [
         ],
     },
     {
+        title: 'academic-degree',
+        tags: [
+            {
+                tag: 'Bachelor of Science, 2025',
+                icon: <HiAcademicCap />,
+            },
+            {
+                tag: 'Master of Science, 2027',
+                icon: <HiAcademicCap />,
+            },
+        ],
+    },
+    {
         title: 'majored-in',
         tags: [
             {
