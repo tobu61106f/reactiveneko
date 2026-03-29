@@ -230,6 +230,9 @@ export const WHOAMI_PARAGRAPHS = (
     <Row background={PANEL_BACKGROUND}>
         <Description>
             <DescriptionTitle smallCaps>WHO AM I?</DescriptionTitle>
+            <Paragraph>Zhiyun Yu is a Shanghai, China Borned American-Chinese, he has been an OTAKU and Train Nerd for over 15 years. Originally getting his start ass sit in the University at Buffalo, received his Bachelor of Science degree in Electrical Engineering, and then working with the LISP, Python, Ruby, MATLAB, and IEEE, ECS communities.</Paragraph>
+            <Paragraph>Most of his formative work was closely to the Japanese Train-nerd Communities and people call him Shiromaru.</Paragraph>
+            <Paragraph>HE recently in favored to put Electronic Components (be more specifically, the Electronic gabbages) based on ESP-32 and Raspberry Pi Platform. </Paragraph>
             <Paragraph>ESP32架构电子垃圾爱好者</Paragraph>
             <Paragraph>占星师说我一定会成为ASIC工程师</Paragraph>
             <Paragraph>上帝造我并不完美，刚出生的时候脑袋就坏掉了(AuDHD发育障碍)</Paragraph>
