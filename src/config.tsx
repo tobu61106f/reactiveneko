@@ -285,7 +285,7 @@ export const ADDITIONAL_PARAGRAPHS = (
         </Description>
         <Description>
             <DescriptionTitle smallCaps>frequently-traveler</DescriptionTitle>
-            <Paragraph>You may see me in Economy (挂壁粮仓) Class on...</Paragraph>
+            <Paragraph>I'm a UA and Delta Members since I came to U.S. You may see me in Economy (挂壁粮仓) Class on...</Paragraph>
             <Paragraph>ANA: NH107/108/111/112/967/968 on HND↔️SFO, HND↔️ORD, HND↔️PVG </Paragraph>
             <Paragraph>Delta: DL26/166/167/189/274/275/388/389 on ICN↔️ATL, SEA↔️HND, DTW↔️HND, DTW↔️PVG</Paragraph>
         </Description>
