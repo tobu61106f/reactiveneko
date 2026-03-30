@@ -8,7 +8,7 @@ This repository is the ~~experimental~~ next version of [atomicneko](https://git
 
 ## Getting Started
 
-Indeed, you should inspect `pages/index.tsx` to change the content of the page before deploying.
+Indeed, you should inspect `src/config.tsx` to change the content of the page before deploying.
 
 To start a local development server, run `yarn` to install dependencies, and `yarn dev` to start the development server.
 
@@ -16,29 +16,25 @@ The server should be available at `http://localhost:3000`.
 
 ## Deploying
 
-There are multiple ways to deploy this project. Please see https://nextjs.org/docs/deployment for more information.
+There are multiple ways to deploy this project.
 
-Here are some recommended options: Vercel, Netlify, GitHub Pages (requires turning off image optimization, see below), and Cloudflare Pages.
+Here are some recommended options: Vercel, Netlify, GitHub Pages, and Cloudflare Pages.
 
-## Exporting
+### GitHub Pages
 
-Alternatively, a statically generated version of this project can be exported using `yarn export`.
+This repository includes a GitHub Actions workflow (`.github/workflows/deploy.yml`) that automatically builds and deploys to GitHub Pages on every push to the `main` branch.
 
-You may experience some issues during the export process, due to the usage of `next/image` component.
+### Cloudflare Pages
 
-Following the [official documentation](https://nextjs.org/docs/messages/export-image-api) or error messages, you can use `next export` by disabling image optimization.
+This repository includes a GitHub Actions workflow (`.github/workflows/deploy-cloudflare.yml`) for deploying to Cloudflare Pages. To set it up:
 
-```
-% yarn export
-...
-Error: Image Optimization using Next.js' default loader is not compatible with `next export`.
-  Possible solutions:
-    - Use `next start` to run a server, which includes the Image Optimization API.
-    - Configure `images.unoptimized = true` in `next.config.js` to disable the Image Optimization API.
-  Read more: https://nextjs.org/docs/messages/export-image-api
-    at /Users/amphineko/Devcat/reactiveneko/node_modules/next/dist/export/index.js:153:23
-    at async Span.traceAsyncFn (/Users/amphineko/Devcat/reactiveneko/node_modules/next/dist/trace/trace.js:79:20)
-```
+1. Create a Cloudflare Pages project in the [Cloudflare dashboard](https://dash.cloudflare.com/).
+2. Create a Cloudflare API token with **Cloudflare Pages: Edit** permission.
+3. Add the following secrets to your GitHub repository (Settings → Secrets and variables → Actions):
+   - `CLOUDFLARE_API_TOKEN`: Your Cloudflare API token
+   - `CLOUDFLARE_ACCOUNT_ID`: Your Cloudflare account ID (found in the dashboard URL or sidebar)
+   - `CLOUDFLARE_PROJECT_NAME`: The name of your Cloudflare Pages project
+4. Push to the `main` branch or trigger the workflow manually to deploy.
 
 ## FAQs
 
