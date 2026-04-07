@@ -232,7 +232,7 @@ export const WHOAMI_PARAGRAPHS = (
             <DescriptionTitle smallCaps>WHO AM I?</DescriptionTitle>
             <Paragraph>Zhiyun Yu is a Shanghai, China Borned American-Chinese, he has been an OTAKU and Train Nerd for over 15 years. Originally getting his start ass sit in the University at Buffalo, received his Bachelor of Science degree in Electrical Engineering, and then working with the LISP, Python, Ruby, MATLAB, and IEEE, ECS communities.</Paragraph>
             <Paragraph>Most of his formative work was closely to the Japanese Train-nerd Communities and people call him Shiromaru.</Paragraph>
-            <Paragraph>HE recently in favored to put Electronic Components (be more specifically, the Electronic gabbages) based on ESP-32 and Raspberry Pi Platform. </Paragraph>
+            <Paragraph>HE recently in favored to put Electronic Components (be more specifically, the Electronic gabbages) together to built some funny sh*t based on ESP-32, ESP-8266 and Raspberry Pi Platform. </Paragraph>
             <Paragraph>ESP32架构电子垃圾爱好者</Paragraph>
             <Paragraph>占星师说我一定会成为ASIC工程师</Paragraph>
             <Paragraph>上帝造我并不完美，刚出生的时候脑袋就坏掉了(AuDHD发育障碍)</Paragraph>
@@ -240,6 +240,17 @@ export const WHOAMI_PARAGRAPHS = (
             <Paragraph>想为社会转型正义做出贡献</Paragraph>
             <Paragraph>SDGs賛成:多様性重視</Paragraph>
             <Paragraph>My office is a safe place.</Paragraph>
+        </Description>
+        <Description>
+            <DescriptionTitle smallCaps>自我介绍</DescriptionTitle>
+            <Paragraph>讀者你好！我是IGBT，or Yu Zhiyun, 感謝你點進這個頁面。雖然日本網友叫我４６０（＝しろまる）、IGBTニキ的情況相當多。</Paragraph>
+            <Paragraph>如果你不急的話，可以駐足閱讀一下簡短的介紹。</Paragraph>
+            <Paragraph>目前（2026 年 3 月），我的 Twitter 是不公開的，這個 rule 我追隨了約八年，因爲資訊的質量和用戶的素質真的是年年在下降。我在 Bluesky 主要關注那些從 Twitter 遷徙去的日本朋友的朋友們，以及大量從事Computer Science業界的工程師。</Paragraph>
+            <Paragraph>我對於任何形式的性別戰爭、身份政治類的仇恨言论会感到不适。我認爲中文社群變成整天打打殺殺的這樣子，我們當中沒有一個能免罪。</Paragraph>
+            <Paragraph>目前我主要在 Telegram 上小範圍地活動，具體是用作 RSS 訂閲器看凍鰻和新聞，中文訊息脫離了中國本土也可以變得很美。</Paragraph>
+            <Paragraph>我在 GitHub 會存放一些過往在學習時寫的代碼，像聚類分析和貝葉斯分類器是主要内容，目前還沒有勇氣公開，git 的版本控制我用得比較菜。所以點進去會發現主要 contributes 會是 LaTex. </Paragraph>
+            <Paragraph>大約一個月一次的頻率在 Instagram 上分享拍攝的風景之類的。器材點進 flickr 的 about 卷軸 check-out 就好啦！</Paragraph>
+            <Paragraph>如果你先前已經在其他地方與我有過接觸，你也可以看看我在工作上所展現的其他方面。</Paragraph>
         </Description>
     </Row>
 )
