@@ -16,11 +16,12 @@ import {
 import { IoLogoFlickr } from "react-icons/io5";
 import { FaInstagram } from "react-icons/fa";
 
-import ProfilePictureOriginal from './assets/images/Kaho.jpg'
-import ProfilePictureAvif from './assets/images/Kaho.jpg?format=avif'
-import ProfilePictureJpeg from './assets/images/Kaho.jpg?format=jpeg'
-import ProfilePicturePng from './assets/images/Kaho.jpg?format=png'
-import ProfilePictureWebp from './assets/images/Kaho.jpg?format=webp'
+import ProfilePictureOriginal from './assets/images/suduri.png'
+import ProfilePictureAvif from './assets/images/suduri.png?format=avif'
+import ProfilePictureJpeg from './assets/images/suduri.png?format=jpeg'
+import ProfilePicturePng from './assets/images/suduri.png?format=png'
+import ProfilePictureWebp from './assets/images/suduri.png?format=webp'
+
 import { ProfileNameStandout, ProfilePictureSources } from './components/display/header'
 import { Description, DescriptionTitle, Paragraph } from './components/typography'
 import PanelBackground from './assets/images/blueprint-panels.svg'
